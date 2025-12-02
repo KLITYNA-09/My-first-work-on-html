@@ -19,33 +19,3 @@
 </body>
 </html>
 
-body{
-    background-color: blueviolet;
-    color: #00ff73;
-    font-family: fantasy;
-    display: grid;
-    place-items: center;
-    min-height: 600px;
-    
-}
-
-.kod{
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    background-color: #101296;
-    padding:15px 30px ;
-    border-radius: 20px;
-}
-
-.cyfra{
-    font-size: 50px;
-    padding: 18px;
-    filter: blur(30px);
-    transition: 0.09s;
-}
-
-.cyfra:hover{
-    filter: blur(0px);
-    cursor: pointer;
-}
